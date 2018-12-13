@@ -1,0 +1,28 @@
+{
+  "name": "sun_server",
+  "version": "1.0.0",
+  "description": "阳光救援的web服务器",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix",
+    "test": "test"
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MSNKgit/sun_server.git"
+  },
+  "author": "梁永恒",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MSNKgit/sun_server/issues"
+  },
+  "homepage": "https://github.com/MSNKgit/sun_server#readme",
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
+  }
+}
